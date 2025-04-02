@@ -4,7 +4,8 @@
 
 A secure password reset system implementation using the MERN stack (MongoDB, Express.js, React.js, Node.js) with email verification functionality. This application provides a robust solution for users to reset their passwords through email verification safely.
 
-!Website Overview [image](https://github.com/user-attachments/assets/3a677ade-fb44-4e53-99c1-221df3f96d06)
+### Website Overview 
+![image](https://github.com/user-attachments/assets/3a677ade-fb44-4e53-99c1-221df3f96d06)
 
 
 
