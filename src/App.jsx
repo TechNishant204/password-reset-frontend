@@ -6,7 +6,7 @@ import Home from "./Components/Home";
 import Login from "./Components/Login";
 import Signup from "./Components/Signup";
 import ForgotPassword from "./Components/ForgotPassword";
-import ResetPassword from "./components/ResetPassword";
+import ResetPassword from "./Components/ResetPassword";
 import { AlertProvider } from "./context/AlertContext";
 import { AuthProvider } from "./context/AuthContext";
 import "bootstrap/dist/css/bootstrap.min.css";
