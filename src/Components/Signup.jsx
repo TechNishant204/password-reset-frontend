@@ -15,7 +15,7 @@ const Signup = () => {
     confirmPassword: "",
   });
 
-  const [isLoading, setIsloading] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const { addAlert } = useAlert();
   const navigate = useNavigate();
 
@@ -33,7 +33,7 @@ const Signup = () => {
       addAlert("Passwords do not match", "danger");
       return;
     }
-    setIsloading(true);
+    setIsLoading(true);
 
     try {
       const res = await axios.post(`${HOST}/api/users/signup`, {
@@ -42,14 +42,14 @@ const Signup = () => {
         password: formData.password,
       });
       addAlert(res.data.message, "success");
-      navigate("./login");
+      navigate("/login");
     } catch (err) {
       addAlert(
         err.response?.data?.message || "Failed to create account",
         "danger"
       );
     } finally {
-      setIsloading(false);
+      setIsLoading(false);
     }
   };
 

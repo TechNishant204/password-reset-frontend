@@ -16,7 +16,9 @@ const Login = () => {
   const { addAlert } = useAlert();
   const { login } = useAuth();
   const navigate = useNavigate();
+
   const HOST = import.meta.env.VITE_HOST;
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsLoading(true);

@@ -43,9 +43,8 @@ const Header = () => {
             <Nav className="ms-auto">
               {[
                 { to: "/", text: "Home" },
-                { to: "/", text: "Courses" },
                 { to: "/login", text: "Login" },
-                { to: "/forgot-password", text: "Forgot Password" },
+                { to: "/signup", text: "Signup" },
               ].map((item) => (
                 <Nav.Link
                   key={item.text}
